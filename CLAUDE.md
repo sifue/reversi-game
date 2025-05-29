@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **変数名・関数名**: 英語を使用（国際的な慣例に従う）
 
 ## プロジェクト状況
-サイトを開いて、二人で対戦できるオセロゲーム。
+サイトを開いて、二人で対戦できるリバーシゲーム。
 
 ### 技術構成
 
@@ -33,7 +33,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - GitHubで管理するための.gitignore
 
 ## 機能要件
-- オセロ版が表示されている
+- リバーシボードが表示されている
 - それぞれの手番が表示されている
 - 白黒の取得数が表示されている
 - ゲーム開始、ゲーム終了の演出

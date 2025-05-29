@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import OthelloGame from './components/OthelloGame'
+import ReversiGame from './components/ReversiGame'
 import GameStartAnimation from './components/GameStartAnimation'
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
       
       <div className="w-full h-full flex flex-col items-center justify-center px-4 py-2">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4 sm:mb-6 md:mb-8">
-          オセロゲーム
+          リバーシゲーム
         </h1>
         <div className="flex-1 flex items-center justify-center w-full max-w-4xl">
-          <OthelloGame />
+          <ReversiGame />
         </div>
       </div>
     </div>

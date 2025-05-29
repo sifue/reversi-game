@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useOthelloGame } from '../hooks/useOthelloGame';
+import { useReversiGame } from '../hooks/useReversiGame';
 import Board from './Board';
 import GameInfo from './GameInfo';
 import GameEndAnimation from './GameEndAnimation';
 
-const OthelloGame: React.FC = () => {
-  const { gameState, makePlayerMove, restartGame, winner } = useOthelloGame();
+const ReversiGame: React.FC = () => {
+  const { gameState, makePlayerMove, restartGame, winner } = useReversiGame();
   const [showEndAnimation, setShowEndAnimation] = useState(false);
 
   useEffect(() => {
@@ -66,4 +66,4 @@ const OthelloGame: React.FC = () => {
   );
 };
 
-export default OthelloGame;
+export default ReversiGame;

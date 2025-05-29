@@ -27,7 +27,7 @@ const GameStartAnimation: React.FC<GameStartAnimationProps> = ({ onAnimationComp
         <div className={`text-6xl font-bold mb-8 transition-all duration-1000 ${
           currentStep >= 1 ? 'opacity-100 scale-100' : 'opacity-0 scale-50'
         }`}>
-          オセロゲーム
+          リバーシゲーム
         </div>
         
         <div className={`flex justify-center space-x-4 mb-8 transition-all duration-1000 delay-500 ${

@@ -11,7 +11,7 @@ import {
   isValidMove
 } from '../utils/gameLogic';
 
-export const useOthelloGame = () => {
+export const useReversiGame = () => {
   const [gameState, setGameState] = useState<GameState>(() => {
     const board = createInitialBoard();
     const { black, white } = calculateScore(board);
