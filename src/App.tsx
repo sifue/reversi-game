@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import ReversiGame from './components/ReversiGame'
 import GameStartAnimation from './components/GameStartAnimation'
 

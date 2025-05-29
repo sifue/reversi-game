@@ -1,4 +1,4 @@
-import { Board, Player, Position, CellState } from '../types/game';
+import { Board, Player, Position } from '../types/game';
 
 export const BOARD_SIZE = 8;
 
